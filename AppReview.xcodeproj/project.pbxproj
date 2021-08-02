@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,56 @@
 		E248B55726B73BE8001CF421 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B52C26B73BE7001CF421 /* ContentView.swift */; };
 		E248B55826B73BE8001CF421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E248B52D26B73BE7001CF421 /* Assets.xcassets */; };
 		E248B55926B73BE8001CF421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E248B52D26B73BE7001CF421 /* Assets.xcassets */; };
+		E248B56B26B73C04001CF421 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B56A26B73C04001CF421 /* Entity.swift */; };
+		E248B56D26B73C22001CF421 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B56C26B73C22001CF421 /* Review.swift */; };
+		E248B57126B74E97001CF421 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B57026B74E97001CF421 /* FileReader.swift */; };
+		E248B57526B74F45001CF421 /* ReviewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B57426B74F45001CF421 /* ReviewsList.swift */; };
+		E248B57A26B74FDE001CF421 /* ReviewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B57926B74FDE001CF421 /* ReviewsListViewModel.swift */; };
+		E248B57D26B76C4F001CF421 /* apps.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B57C26B76C4F001CF421 /* apps.json */; };
+		E248B57F26B76DC0001CF421 /* AppEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B57E26B76DC0001CF421 /* AppEntity.swift */; };
+		E248B58226B76DEB001CF421 /* AppsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58126B76DEA001CF421 /* AppsList.swift */; };
+		E248B58426B76DFE001CF421 /* AppsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58326B76DFE001CF421 /* AppsListViewModel.swift */; };
+		E248B58626B76EA9001CF421 /* AppRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58526B76EA9001CF421 /* AppRow.swift */; };
+		E248B58826B76FBE001CF421 /* AppDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58726B76FBE001CF421 /* AppDetails.swift */; };
+		E248B58A26B76FC1001CF421 /* ReviewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B57926B74FDE001CF421 /* ReviewsListViewModel.swift */; };
+		E248B58B26B76FC1001CF421 /* AppsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58326B76DFE001CF421 /* AppsListViewModel.swift */; };
+		E248B58E26B76FC5001CF421 /* AppDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58726B76FBE001CF421 /* AppDetails.swift */; };
+		E248B58F26B76FC5001CF421 /* AppsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58126B76DEA001CF421 /* AppsList.swift */; };
+		E248B59026B76FC5001CF421 /* AppRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B58526B76EA9001CF421 /* AppRow.swift */; };
+		E248B59126B76FC8001CF421 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B57026B74E97001CF421 /* FileReader.swift */; };
+		E248B59226B76FCC001CF421 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B56C26B73C22001CF421 /* Review.swift */; };
+		E248B59326B76FCC001CF421 /* AppEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B57E26B76DC0001CF421 /* AppEntity.swift */; };
+		E248B59426B76FCC001CF421 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B56A26B73C04001CF421 /* Entity.swift */; };
+		E248B59B26B77311001CF421 /* reviews-1397873833.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59926B7730B001CF421 /* reviews-1397873833.json */; };
+		E248B59C26B77311001CF421 /* reviews-1132286368.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59626B7730B001CF421 /* reviews-1132286368.json */; };
+		E248B59D26B77311001CF421 /* reviews-1468900022.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59A26B7730B001CF421 /* reviews-1468900022.json */; };
+		E248B59E26B77311001CF421 /* reviews-1553075719.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59526B7730B001CF421 /* reviews-1553075719.json */; };
+		E248B59F26B77311001CF421 /* reviews-1160790974.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59826B7730B001CF421 /* reviews-1160790974.json */; };
+		E248B5A026B77311001CF421 /* reviews-1434700227.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59726B7730B001CF421 /* reviews-1434700227.json */; };
+		E248B5A126B77311001CF421 /* apps.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B57C26B76C4F001CF421 /* apps.json */; };
+		E248B5A226B77313001CF421 /* reviews-1397873833.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59926B7730B001CF421 /* reviews-1397873833.json */; };
+		E248B5A326B77313001CF421 /* reviews-1132286368.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59626B7730B001CF421 /* reviews-1132286368.json */; };
+		E248B5A426B77313001CF421 /* reviews-1468900022.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59A26B7730B001CF421 /* reviews-1468900022.json */; };
+		E248B5A526B77313001CF421 /* reviews-1553075719.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59526B7730B001CF421 /* reviews-1553075719.json */; };
+		E248B5A626B77313001CF421 /* reviews-1160790974.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59826B7730B001CF421 /* reviews-1160790974.json */; };
+		E248B5A726B77313001CF421 /* reviews-1434700227.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B59726B7730B001CF421 /* reviews-1434700227.json */; };
+		E248B5A926B77423001CF421 /* ReviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5A826B77423001CF421 /* ReviewRow.swift */; };
+		E248B5AA26B77423001CF421 /* ReviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5A826B77423001CF421 /* ReviewRow.swift */; };
+		E248B5AC26B7744F001CF421 /* ReviewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5AB26B7744F001CF421 /* ReviewDetails.swift */; };
+		E248B5AD26B7744F001CF421 /* ReviewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5AB26B7744F001CF421 /* ReviewDetails.swift */; };
+		E248B5AF26B7784B001CF421 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5AE26B7784B001CF421 /* RatingView.swift */; };
+		E248B5B026B7784B001CF421 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5AE26B7784B001CF421 /* RatingView.swift */; };
+		E248B5B226B78768001CF421 /* ReviewsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5B126B78768001CF421 /* ReviewsHeader.swift */; };
+		E248B5B326B78768001CF421 /* ReviewsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5B126B78768001CF421 /* ReviewsHeader.swift */; };
+		E248B5B526B79838001CF421 /* ReviewTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5B426B79838001CF421 /* ReviewTagsView.swift */; };
+		E248B5B626B79838001CF421 /* ReviewTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5B426B79838001CF421 /* ReviewTagsView.swift */; };
+		E248B5B826B7AD6C001CF421 /* TagLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5B726B7AD6C001CF421 /* TagLayoutView.swift */; };
+		E248B5B926B7AD6C001CF421 /* TagLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5B726B7AD6C001CF421 /* TagLayoutView.swift */; };
+		E248B5BC26B7BF08001CF421 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = E248B5BB26B7BF08001CF421 /* SwiftUICharts */; };
+		E248B5BE26B7C31D001CF421 /* IssuesBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5BD26B7C31D001CF421 /* IssuesBarChart.swift */; };
+		E248B5BF26B7C31D001CF421 /* IssuesBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5BD26B7C31D001CF421 /* IssuesBarChart.swift */; };
+		E248B5C126B7CCDC001CF421 /* IssuesPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5C026B7CCDC001CF421 /* IssuesPieChart.swift */; };
+		E248B5C226B7CCDC001CF421 /* IssuesPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5C026B7CCDC001CF421 /* IssuesPieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +99,31 @@
 		E248B54D26B73BE8001CF421 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E248B55126B73BE8001CF421 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E248B55326B73BE8001CF421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E248B56A26B73C04001CF421 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		E248B56C26B73C22001CF421 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		E248B57026B74E97001CF421 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		E248B57426B74F45001CF421 /* ReviewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsList.swift; sourceTree = "<group>"; };
+		E248B57926B74FDE001CF421 /* ReviewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsListViewModel.swift; sourceTree = "<group>"; };
+		E248B57C26B76C4F001CF421 /* apps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = apps.json; sourceTree = "<group>"; };
+		E248B57E26B76DC0001CF421 /* AppEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntity.swift; sourceTree = "<group>"; };
+		E248B58126B76DEA001CF421 /* AppsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsList.swift; sourceTree = "<group>"; };
+		E248B58326B76DFE001CF421 /* AppsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListViewModel.swift; sourceTree = "<group>"; };
+		E248B58526B76EA9001CF421 /* AppRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRow.swift; sourceTree = "<group>"; };
+		E248B58726B76FBE001CF421 /* AppDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetails.swift; sourceTree = "<group>"; };
+		E248B59526B7730B001CF421 /* reviews-1553075719.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "reviews-1553075719.json"; sourceTree = "<group>"; };
+		E248B59626B7730B001CF421 /* reviews-1132286368.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "reviews-1132286368.json"; sourceTree = "<group>"; };
+		E248B59726B7730B001CF421 /* reviews-1434700227.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "reviews-1434700227.json"; sourceTree = "<group>"; };
+		E248B59826B7730B001CF421 /* reviews-1160790974.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "reviews-1160790974.json"; sourceTree = "<group>"; };
+		E248B59926B7730B001CF421 /* reviews-1397873833.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "reviews-1397873833.json"; sourceTree = "<group>"; };
+		E248B59A26B7730B001CF421 /* reviews-1468900022.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "reviews-1468900022.json"; sourceTree = "<group>"; };
+		E248B5A826B77423001CF421 /* ReviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRow.swift; sourceTree = "<group>"; };
+		E248B5AB26B7744F001CF421 /* ReviewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetails.swift; sourceTree = "<group>"; };
+		E248B5AE26B7784B001CF421 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		E248B5B126B78768001CF421 /* ReviewsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsHeader.swift; sourceTree = "<group>"; };
+		E248B5B426B79838001CF421 /* ReviewTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTagsView.swift; sourceTree = "<group>"; };
+		E248B5B726B7AD6C001CF421 /* TagLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayoutView.swift; sourceTree = "<group>"; };
+		E248B5BD26B7C31D001CF421 /* IssuesBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesBarChart.swift; sourceTree = "<group>"; };
+		E248B5C026B7CCDC001CF421 /* IssuesPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesPieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E248B5BC26B7BF08001CF421 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +174,12 @@
 		E248B52A26B73BE7001CF421 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E248B57826B74FC8001CF421 /* ViewModels */,
+				E248B57726B74FC1001CF421 /* Views */,
+				E248B57626B74F66001CF421 /* Components */,
+				E248B56F26B74E8A001CF421 /* Helpers */,
+				E248B56E26B74E83001CF421 /* Resources */,
+				E248B56926B73BF8001CF421 /* Models */,
 				E248B52B26B73BE7001CF421 /* AppReviewApp.swift */,
 				E248B52C26B73BE7001CF421 /* ContentView.swift */,
 				E248B52D26B73BE7001CF421 /* Assets.xcassets */,
@@ -151,6 +233,89 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		E248B56926B73BF8001CF421 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E248B56A26B73C04001CF421 /* Entity.swift */,
+				E248B56C26B73C22001CF421 /* Review.swift */,
+				E248B57E26B76DC0001CF421 /* AppEntity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E248B56E26B74E83001CF421 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E248B59626B7730B001CF421 /* reviews-1132286368.json */,
+				E248B59826B7730B001CF421 /* reviews-1160790974.json */,
+				E248B59926B7730B001CF421 /* reviews-1397873833.json */,
+				E248B59726B7730B001CF421 /* reviews-1434700227.json */,
+				E248B59A26B7730B001CF421 /* reviews-1468900022.json */,
+				E248B59526B7730B001CF421 /* reviews-1553075719.json */,
+				E248B57C26B76C4F001CF421 /* apps.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E248B56F26B74E8A001CF421 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E248B57026B74E97001CF421 /* FileReader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E248B57626B74F66001CF421 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E248B5AE26B7784B001CF421 /* RatingView.swift */,
+				E248B5B726B7AD6C001CF421 /* TagLayoutView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E248B57726B74FC1001CF421 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E248B58026B76DE0001CF421 /* Apps */,
+				E248B57B26B7504B001CF421 /* Reviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E248B57826B74FC8001CF421 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E248B57926B74FDE001CF421 /* ReviewsListViewModel.swift */,
+				E248B58326B76DFE001CF421 /* AppsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E248B57B26B7504B001CF421 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				E248B57426B74F45001CF421 /* ReviewsList.swift */,
+				E248B5A826B77423001CF421 /* ReviewRow.swift */,
+				E248B5AB26B7744F001CF421 /* ReviewDetails.swift */,
+				E248B5B426B79838001CF421 /* ReviewTagsView.swift */,
+				E248B5B126B78768001CF421 /* ReviewsHeader.swift */,
+				E248B5BD26B7C31D001CF421 /* IssuesBarChart.swift */,
+				E248B5C026B7CCDC001CF421 /* IssuesPieChart.swift */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		E248B58026B76DE0001CF421 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				E248B58126B76DEA001CF421 /* AppsList.swift */,
+				E248B58526B76EA9001CF421 /* AppRow.swift */,
+				E248B58726B76FBE001CF421 /* AppDetails.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +332,9 @@
 			dependencies = (
 			);
 			name = "AppReview (iOS)";
+			packageProductDependencies = (
+				E248B5BB26B7BF08001CF421 /* SwiftUICharts */,
+			);
 			productName = "AppReview (iOS)";
 			productReference = E248B53226B73BE8001CF421 /* AppReview.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +426,9 @@
 				Base,
 			);
 			mainGroup = E248B52526B73BE7001CF421;
+			packageReferences = (
+				E248B5BA26B7BF08001CF421 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
 			productRefGroup = E248B53326B73BE8001CF421 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,7 +446,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E248B5A426B77313001CF421 /* reviews-1468900022.json in Resources */,
 				E248B55826B73BE8001CF421 /* Assets.xcassets in Resources */,
+				E248B5A326B77313001CF421 /* reviews-1132286368.json in Resources */,
+				E248B5A626B77313001CF421 /* reviews-1160790974.json in Resources */,
+				E248B57D26B76C4F001CF421 /* apps.json in Resources */,
+				E248B5A526B77313001CF421 /* reviews-1553075719.json in Resources */,
+				E248B5A226B77313001CF421 /* reviews-1397873833.json in Resources */,
+				E248B5A726B77313001CF421 /* reviews-1434700227.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +462,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E248B55926B73BE8001CF421 /* Assets.xcassets in Resources */,
+				E248B59D26B77311001CF421 /* reviews-1468900022.json in Resources */,
+				E248B5A026B77311001CF421 /* reviews-1434700227.json in Resources */,
+				E248B59B26B77311001CF421 /* reviews-1397873833.json in Resources */,
+				E248B59C26B77311001CF421 /* reviews-1132286368.json in Resources */,
+				E248B5A126B77311001CF421 /* apps.json in Resources */,
+				E248B59E26B77311001CF421 /* reviews-1553075719.json in Resources */,
+				E248B59F26B77311001CF421 /* reviews-1160790974.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +493,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E248B57F26B76DC0001CF421 /* AppEntity.swift in Sources */,
 				E248B55626B73BE8001CF421 /* ContentView.swift in Sources */,
+				E248B58826B76FBE001CF421 /* AppDetails.swift in Sources */,
+				E248B5C126B7CCDC001CF421 /* IssuesPieChart.swift in Sources */,
+				E248B5B826B7AD6C001CF421 /* TagLayoutView.swift in Sources */,
+				E248B5AF26B7784B001CF421 /* RatingView.swift in Sources */,
+				E248B57126B74E97001CF421 /* FileReader.swift in Sources */,
+				E248B5AC26B7744F001CF421 /* ReviewDetails.swift in Sources */,
+				E248B5A926B77423001CF421 /* ReviewRow.swift in Sources */,
+				E248B56D26B73C22001CF421 /* Review.swift in Sources */,
+				E248B58426B76DFE001CF421 /* AppsListViewModel.swift in Sources */,
+				E248B58226B76DEB001CF421 /* AppsList.swift in Sources */,
+				E248B57A26B74FDE001CF421 /* ReviewsListViewModel.swift in Sources */,
+				E248B58626B76EA9001CF421 /* AppRow.swift in Sources */,
+				E248B5B226B78768001CF421 /* ReviewsHeader.swift in Sources */,
 				E248B55426B73BE8001CF421 /* AppReviewApp.swift in Sources */,
+				E248B56B26B73C04001CF421 /* Entity.swift in Sources */,
+				E248B5B526B79838001CF421 /* ReviewTagsView.swift in Sources */,
+				E248B5BE26B7C31D001CF421 /* IssuesBarChart.swift in Sources */,
+				E248B57526B74F45001CF421 /* ReviewsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +520,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E248B5C226B7CCDC001CF421 /* IssuesPieChart.swift in Sources */,
+				E248B5AA26B77423001CF421 /* ReviewRow.swift in Sources */,
+				E248B58E26B76FC5001CF421 /* AppDetails.swift in Sources */,
+				E248B5B926B7AD6C001CF421 /* TagLayoutView.swift in Sources */,
+				E248B58F26B76FC5001CF421 /* AppsList.swift in Sources */,
+				E248B5B326B78768001CF421 /* ReviewsHeader.swift in Sources */,
+				E248B5AD26B7744F001CF421 /* ReviewDetails.swift in Sources */,
+				E248B5BF26B7C31D001CF421 /* IssuesBarChart.swift in Sources */,
+				E248B59226B76FCC001CF421 /* Review.swift in Sources */,
 				E248B55726B73BE8001CF421 /* ContentView.swift in Sources */,
+				E248B59326B76FCC001CF421 /* AppEntity.swift in Sources */,
 				E248B55526B73BE8001CF421 /* AppReviewApp.swift in Sources */,
+				E248B58A26B76FC1001CF421 /* ReviewsListViewModel.swift in Sources */,
+				E248B59426B76FCC001CF421 /* Entity.swift in Sources */,
+				E248B5B626B79838001CF421 /* ReviewTagsView.swift in Sources */,
+				E248B59026B76FC5001CF421 /* AppRow.swift in Sources */,
+				E248B59126B76FC8001CF421 /* FileReader.swift in Sources */,
+				E248B58B26B76FC1001CF421 /* AppsListViewModel.swift in Sources */,
+				E248B5B026B7784B001CF421 /* RatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +916,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E248B5BA26B7BF08001CF421 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E248B5BB26B7BF08001CF421 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E248B5BA26B7BF08001CF421 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E248B52626B73BE7001CF421 /* Project object */;
 }
