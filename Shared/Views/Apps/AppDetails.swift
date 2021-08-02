@@ -38,8 +38,10 @@ struct AppDetails: View {
                     .padding(.horizontal)
                     .padding(.vertical, 12)
                 Divider()
+                if reviewsVM.barDataSet.dataPoints.count > 0 {
                 IssuesBarChart(dataSet: reviewsVM.barDataSet)
                     .padding(.vertical)
+                }
             }
         })
         .navigationBarTitleDisplayMode(.inline)

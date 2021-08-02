@@ -11,9 +11,13 @@ import Combine
 
 class AppsListViewModel: ObservableObject {
     @Published var data: [AppEntity] = []
+    @Published var competitorData: [AppEntity] = []
+
     @Published var selection: AppEntity?
     
     init() {
         self.data = FileReader.load("apps")
+        self.competitorData = FileReader.load("competitors")
+
     }
 }

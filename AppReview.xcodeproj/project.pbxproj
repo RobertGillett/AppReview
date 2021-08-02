@@ -65,6 +65,18 @@
 		E248B5BF26B7C31D001CF421 /* IssuesBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5BD26B7C31D001CF421 /* IssuesBarChart.swift */; };
 		E248B5C126B7CCDC001CF421 /* IssuesPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5C026B7CCDC001CF421 /* IssuesPieChart.swift */; };
 		E248B5C226B7CCDC001CF421 /* IssuesPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248B5C026B7CCDC001CF421 /* IssuesPieChart.swift */; };
+		E248B5C426B7E27B001CF421 /* competitors.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C326B7E27B001CF421 /* competitors.json */; };
+		E248B5C526B7E27B001CF421 /* competitors.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C326B7E27B001CF421 /* competitors.json */; };
+		E248B5CB26B7E314001CF421 /* reviews-714042570.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C626B7E314001CF421 /* reviews-714042570.json */; };
+		E248B5CC26B7E314001CF421 /* reviews-714042570.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C626B7E314001CF421 /* reviews-714042570.json */; };
+		E248B5CD26B7E314001CF421 /* reviews-398596699.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C726B7E314001CF421 /* reviews-398596699.json */; };
+		E248B5CE26B7E314001CF421 /* reviews-398596699.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C726B7E314001CF421 /* reviews-398596699.json */; };
+		E248B5CF26B7E314001CF421 /* reviews-371108019.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C826B7E314001CF421 /* reviews-371108019.json */; };
+		E248B5D026B7E314001CF421 /* reviews-371108019.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C826B7E314001CF421 /* reviews-371108019.json */; };
+		E248B5D126B7E314001CF421 /* reviews-1468484450.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C926B7E314001CF421 /* reviews-1468484450.json */; };
+		E248B5D226B7E314001CF421 /* reviews-1468484450.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5C926B7E314001CF421 /* reviews-1468484450.json */; };
+		E248B5D326B7E314001CF421 /* reviews-582007913.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5CA26B7E314001CF421 /* reviews-582007913.json */; };
+		E248B5D426B7E314001CF421 /* reviews-582007913.json in Resources */ = {isa = PBXBuildFile; fileRef = E248B5CA26B7E314001CF421 /* reviews-582007913.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +136,12 @@
 		E248B5B726B7AD6C001CF421 /* TagLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayoutView.swift; sourceTree = "<group>"; };
 		E248B5BD26B7C31D001CF421 /* IssuesBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesBarChart.swift; sourceTree = "<group>"; };
 		E248B5C026B7CCDC001CF421 /* IssuesPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesPieChart.swift; sourceTree = "<group>"; };
+		E248B5C326B7E27B001CF421 /* competitors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = competitors.json; sourceTree = "<group>"; };
+		E248B5C626B7E314001CF421 /* reviews-714042570.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "reviews-714042570.json"; sourceTree = "<group>"; };
+		E248B5C726B7E314001CF421 /* reviews-398596699.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "reviews-398596699.json"; sourceTree = "<group>"; };
+		E248B5C826B7E314001CF421 /* reviews-371108019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "reviews-371108019.json"; sourceTree = "<group>"; };
+		E248B5C926B7E314001CF421 /* reviews-1468484450.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "reviews-1468484450.json"; sourceTree = "<group>"; };
+		E248B5CA26B7E314001CF421 /* reviews-582007913.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "reviews-582007913.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +264,11 @@
 		E248B56E26B74E83001CF421 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E248B5C826B7E314001CF421 /* reviews-371108019.json */,
+				E248B5C726B7E314001CF421 /* reviews-398596699.json */,
+				E248B5CA26B7E314001CF421 /* reviews-582007913.json */,
+				E248B5C626B7E314001CF421 /* reviews-714042570.json */,
+				E248B5C926B7E314001CF421 /* reviews-1468484450.json */,
 				E248B59626B7730B001CF421 /* reviews-1132286368.json */,
 				E248B59826B7730B001CF421 /* reviews-1160790974.json */,
 				E248B59926B7730B001CF421 /* reviews-1397873833.json */,
@@ -253,6 +276,7 @@
 				E248B59A26B7730B001CF421 /* reviews-1468900022.json */,
 				E248B59526B7730B001CF421 /* reviews-1553075719.json */,
 				E248B57C26B76C4F001CF421 /* apps.json */,
+				E248B5C326B7E27B001CF421 /* competitors.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -446,12 +470,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E248B5CB26B7E314001CF421 /* reviews-714042570.json in Resources */,
+				E248B5D326B7E314001CF421 /* reviews-582007913.json in Resources */,
+				E248B5C426B7E27B001CF421 /* competitors.json in Resources */,
 				E248B5A426B77313001CF421 /* reviews-1468900022.json in Resources */,
 				E248B55826B73BE8001CF421 /* Assets.xcassets in Resources */,
+				E248B5D126B7E314001CF421 /* reviews-1468484450.json in Resources */,
 				E248B5A326B77313001CF421 /* reviews-1132286368.json in Resources */,
 				E248B5A626B77313001CF421 /* reviews-1160790974.json in Resources */,
+				E248B5CF26B7E314001CF421 /* reviews-371108019.json in Resources */,
 				E248B57D26B76C4F001CF421 /* apps.json in Resources */,
 				E248B5A526B77313001CF421 /* reviews-1553075719.json in Resources */,
+				E248B5CD26B7E314001CF421 /* reviews-398596699.json in Resources */,
 				E248B5A226B77313001CF421 /* reviews-1397873833.json in Resources */,
 				E248B5A726B77313001CF421 /* reviews-1434700227.json in Resources */,
 			);
@@ -461,12 +491,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E248B5CC26B7E314001CF421 /* reviews-714042570.json in Resources */,
+				E248B5D426B7E314001CF421 /* reviews-582007913.json in Resources */,
+				E248B5C526B7E27B001CF421 /* competitors.json in Resources */,
 				E248B55926B73BE8001CF421 /* Assets.xcassets in Resources */,
 				E248B59D26B77311001CF421 /* reviews-1468900022.json in Resources */,
+				E248B5D226B7E314001CF421 /* reviews-1468484450.json in Resources */,
 				E248B5A026B77311001CF421 /* reviews-1434700227.json in Resources */,
 				E248B59B26B77311001CF421 /* reviews-1397873833.json in Resources */,
+				E248B5D026B7E314001CF421 /* reviews-371108019.json in Resources */,
 				E248B59C26B77311001CF421 /* reviews-1132286368.json in Resources */,
 				E248B5A126B77311001CF421 /* apps.json in Resources */,
+				E248B5CE26B7E314001CF421 /* reviews-398596699.json in Resources */,
 				E248B59E26B77311001CF421 /* reviews-1553075719.json in Resources */,
 				E248B59F26B77311001CF421 /* reviews-1160790974.json in Resources */,
 			);

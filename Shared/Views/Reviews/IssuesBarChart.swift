@@ -15,7 +15,7 @@ struct IssuesBarChart: View {
         self.dataSet = dataSet
         let metadata   = ChartMetadata(title: "App Issues", subtitle: "% of reviews")
         
-        let gridStyle  = GridStyle(numberOfLines: dataSet.dataPoints.count - 1,
+        let gridStyle  = GridStyle(numberOfLines: dataSet.dataPoints.count + 1,
                                    lineColour   : Color(.gray).opacity(0.25),
                                    lineWidth    : 1)
         let chartStyle = BarChartStyle(infoBoxPlacement   : .header,
@@ -32,7 +32,6 @@ struct IssuesBarChart: View {
                                        topLine            : .maximumValue)
        data = BarChartData(dataSets  : dataSet,
                             metadata  : metadata,
-                            xAxisLabels: ["One", "Two", "Three"],
                             barStyle  : BarStyle(barWidth: 0.5,
                                                  cornerRadius: CornerRadius(top: 4, bottom: 0),
                                                  colourFrom: .dataPoints,
@@ -42,17 +41,10 @@ struct IssuesBarChart: View {
     var body: some View {
         BarChart(chartData: data)
             .touchOverlay(chartData: data, minDistance: 10)
-//            .averageLine(chartData: data,
-//                         strokeStyle: StrokeStyle(lineWidth: 3, dash: [5,10]))
-//            .xAxisPOI(chartData: data,
-//                      markerName: "Bob",
-//                      markerValue: 6,
-//                      dataPointCount: data.dataSets.dataPoints.count)
             .xAxisGrid(chartData: data)
             .yAxisGrid(chartData: data)
             .xAxisLabels(chartData: data)
             .yAxisLabels(chartData: data, colourIndicator: .custom(colour: ColourStyle(colour: .clear), size: 12))
-//            .extraYAxisLabels(chartData: data, colourIndicator: .style(size: 12))
             .headerBox(chartData: data)
             .id(data.id)
             .frame(minWidth: 150, maxWidth: 900, minHeight: 150, idealHeight: 500, maxHeight: 600, alignment: .center)

@@ -27,7 +27,6 @@ struct ReviewRow: View {
                 RatingView(rating: item.rating)
                 Text(item.body)
                     .font(.subheadline)
-//                    .foregroundColor(.gray)
                     .multilineTextAlignment(.leading)
                     .lineLimit(5)
 

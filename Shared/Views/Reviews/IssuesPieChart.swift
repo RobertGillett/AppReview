@@ -11,10 +11,6 @@ import SwiftUICharts
 struct IssuesPieChart: View {
     var dataSet: PieDataSet
     let data : PieChartData
-//    var data: PieChartData {
-//        return PieChartData(dataSets: dataSet, metadata: ChartMetadata(title: "Issues", subtitle: "# of reports"),
-//                            chartStyle: PieChartStyle(infoBoxPlacement: .header))
-//    }
     init(dataSet: PieDataSet) {
         self.dataSet = dataSet
         let metaData =  ChartMetadata(title: "Issues", subtitle: "% of reports")

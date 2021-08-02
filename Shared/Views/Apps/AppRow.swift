@@ -24,6 +24,7 @@ struct AppRow: View {
                     .font(.headline)
             }
         }
+        .padding(.vertical, 12)
     }
 }
 

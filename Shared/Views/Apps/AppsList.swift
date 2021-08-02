@@ -11,12 +11,24 @@ struct AppsList: View {
     @StateObject var vm = AppsListViewModel()
     var body: some View {
         List(selection: $vm.selection, content: {
-            ForEach(vm.data, id: \.id) { item in
-                NavigationLink(
-                    destination: AppDetails(item),
-                    tag: item,
-                    selection: $vm.selection,
-                    label: {AppRow(item)})
+            Section(header: Text("Mercedes Me Apps")) {
+                ForEach(vm.data, id: \.id) { item in
+                    NavigationLink(
+                        destination: AppDetails(item),
+                        tag: item,
+                        selection: $vm.selection,
+                        label: {AppRow(item)})
+                }
+            }
+            
+            Section(header: Text("Competitors")) {
+                ForEach(vm.competitorData, id: \.id) { item in
+                    NavigationLink(
+                        destination: AppDetails(item),
+                        tag: item,
+                        selection: $vm.selection,
+                        label: {AppRow(item)})
+                }
             }
         })
         .navigationTitle("Apps")
